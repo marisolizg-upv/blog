@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'solqui_blogs' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'admin' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', 'comecaca1' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         ' gdRLvc8DD-yE;Kw;H|RHrsmdee^6wMoY ;,-PkmbG5DvO~rJZlsi rG@^:&G^^]' );
+define( 'SECURE_AUTH_KEY',  'V[,HTu_hx*?hy#8U%C0nu8~qg;9r*%/n@~]4iBXkC$cV),J>Vh[ 1wTZmB=v^x7Z' );
+define( 'LOGGED_IN_KEY',    '.=crTim><l{IB<p&h^~!Utgs4/SLc/B7kiI:wI4}7zcTt9}E4(lvT2I7a|LEOa`F' );
+define( 'NONCE_KEY',        '{[.#)$]ihu(Whgw2(VtZ(QeFb9NdHQoq0bdyP8Z{O>@/^kN;oZd4[=Y.i>A$T{aY' );
+define( 'AUTH_SALT',        ';+HJAen%if)A&}bEWzY-b5e@x7HB[m90CZ:}u}$`h[%}wN}{a`![z|45g0WpTee:' );
+define( 'SECURE_AUTH_SALT', 'FP#[X 0]nM-7}? #rn10@.[0heAqM<7qa+hOQBpf8,b2Nis(EtNs}3v}Jcle/(M[' );
+define( 'LOGGED_IN_SALT',   'XcF5&oF)IBy%o&7Od3t-}[IzG}Tj9ZZ(UkD9{_j:s}w@nd4nQ,Of4$X`iY>7zbYw' );
+define( 'NONCE_SALT',       ' }<&eB3U4Tb~f&}p1C9sMdGXCLS*n^I0Rxm)](tK[nML>mX=/k+]PV3Pe^vZain3' );
 
 /**#@-*/
 
@@ -63,7 +63,7 @@ define( 'NONCE_SALT',       'put your unique phrase here' );
  * You can have multiple installations in one database if you give each
  * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix = 'wp_';
+$table_prefix = 'sb_';
 
 /**
  * For developers: WordPress debugging mode.
